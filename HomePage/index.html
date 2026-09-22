@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bloom & More | Floristería</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <a href="#" class="logo">
+            <span class="flower-symbol">✿</span>
+            Bloom <i>&</i> More
+        </a>
+
+        <nav class="navbar">
+
+            <a href="#inicio" class="active">Inicio</a>
+            <a href="#flores">Flores</a>
+            <a href="#ramos">Ramos</a>
+            <a href="#ocasiones">Ocasiones</a>
+            <a href="#personalizado">Personaliza</a>
+            <a href="#contacto">Contacto</a>
+
+        </nav>
+
+        <div class="header-icons">
+
+            <button id="searchButton">⌕</button>
+
+            <button id="favoriteButton">♡</button>
+
+            <button id="cartButton" class="cart">
+                🛒
+                <span id="cartNumber">0</span>
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= BUSCADOR ================= -->
+
+    <div class="search-box" id="searchBox">
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="¿Qué flor estás buscando?"
+        >
+
+        <button id="closeSearch">×</button>
+
+    </div>
+
+
+
+    <main>
+
+
+        <!-- ================= HERO ================= -->
+
+        <section class="hero" id="inicio">
+
+            <div class="hero-left">
+
+                <p class="small-title">
+                    FLORES QUE HABLAN POR TI
+                </p>
+
+                <h1>
+                    Haz florecer<br>
+                    <em>tus momentos.</em>
+                </h1>
+
+                <p class="hero-description">
+
+                    Descubre flores cuidadosamente seleccionadas
+                    para regalar, celebrar y hacer inolvidables
+                    los momentos más especiales.
+
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#flores" class="main-button">
+                        Explorar flores
+                        <span>→</span>
+                    </a>
+
+                    <a href="#personalizado" class="second-button">
+                        Crear mi ramo
+                    </a>
+
+                </div>
+
+
+                <div class="hero-info">
+
+                    <div>
+                        <strong>100%</strong>
+                        <span>Flores frescas</span>
+                    </div>
+
+                    <div>
+                        <strong>♡</strong>
+                        <span>Hecho con cariño</span>
+                    </div>
+
+                    <div>
+                        <strong>24h</strong>
+                        <span>Preparación</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="hero-right">
+
+                <div class="pink-circle"></div>
+
+                <img
+                    src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=1000&q=90"
+                    alt="Flores rosadas"
+                    class="hero-main-image"
+                >
+
+                <div class="flower-decoration flower-one">
+                    ✿
+                </div>
+
+                <div class="flower-decoration flower-two">
+                    ❀
+                </div>
+
+
+                <div class="hero-card">
+
+                    <span class="card-heart">♡</span>
+
+                    <div>
+                        <strong>Flores del mes</strong>
+                        <p>Rosas rosadas</p>
+                    </div>
+
+                    <b>$28</b>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= BARRA DE SERVICIOS ================= -->
+
+        <section class="services">
+
+            <div class="service">
+                <span>✿</span>
+                <div>
+                    <strong>Flores frescas</strong>
+                    <small>Seleccionadas cada día</small>
+                </div>
+            </div>
+
+            <div class="service">
+                <span>♡</span>
+                <div>
+                    <strong>Ramos personalizados</strong>
+                    <small>Diseñados a tu gusto</small>
+                </div>
+            </div>
+
+            <div class="service">
+                <span>♧</span>
+                <div>
+                    <strong>Entrega especial</strong>
+                    <small>En diferentes zonas</small>
+                </div>
+            </div>
+
+            <div class="service">
+                <span>◇</span>
+                <div>
+                    <strong>Compra segura</strong>
+                    <small>Proceso sencillo y confiable</small>
+                </div>
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= CATEGORÍAS ================= -->
+
+        <section class="categories" id="flores">
+
+            <div class="section-top">
+
+                <div>
+                    <p class="small-title">
+                        DESCUBRE NUESTRA COLECCIÓN
+                    </p>
+
+                    <h2>
+                        Encuentra tu flor <em>favorita.</em>
+                    </h2>
+                </div>
+
+                <a href="#productos">
+                    Ver colección completa →
+                </a>
+
+            </div>
+
+
+            <div class="category-grid">
+
+                <div class="category-card large">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1495231916356-a86217efff12?auto=format&fit=crop&w=800&q=90"
+                        alt="Rosas"
+                    >
+
+                    <div class="category-overlay">
+                        <span>01</span>
+                        <h3>Rosas</h3>
+                        <p>Elegantes y románticas</p>
+                    </div>
+
+                </div>
+
+
+                <div class="category-card">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1520763185298-1b434c919102?auto=format&fit=crop&w=700&q=90"
+                        alt="Tulipanes"
+                    >
+
+                    <div class="category-overlay">
+                        <span>02</span>
+                        <h3>Tulipanes</h3>
+                        <p>Delicados y alegres</p>
+                    </div>
+
+                </div>
+
+
+                <div class="category-card">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1597848212624-e19e7c3b3d0b?auto=format&fit=crop&w=700&q=90"
+                        alt="Girasoles"
+                    >
+
+                    <div class="category-overlay">
+                        <span>03</span>
+                        <h3>Girasoles</h3>
+                        <p>Para llenar de alegría</p>
+                    </div>
+
+                </div>
+
+
+                <div class="category-card">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1497250681960-ef046c08a56e?auto=format&fit=crop&w=700&q=90"
+                        alt="Flores naturales"
+                    >
+
+                    <div class="category-overlay">
+                        <span>04</span>
+                        <h3>Lirios</h3>
+                        <p>Suaves y sofisticados</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= PRODUCTOS ================= -->
+
+        <section class="products" id="ramos">
+
+            <div class="section-top">
+
+                <div>
+                    <p class="small-title">
+                        LOS FAVORITOS
+                    </p>
+
+                    <h2>
+                        Nuestros <em>ramos.</em>
+                    </h2>
+                </div>
+
+
+                <div class="filters">
+
+                    <button class="filter active" data-filter="all">
+                        Todos
+                    </button>
+
+                    <button class="filter" data-filter="romantico">
+                        Románticos
+                    </button>
+
+                    <button class="filter" data-filter="alegre">
+                        Alegres
+                    </button>
+
+                    <button class="filter" data-filter="elegante">
+                        Elegantes
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="products-grid" id="productsGrid">
+
+
+                <!-- PRODUCTO -->
+
+                <article
+                    class="product"
+                    data-category="romantico"
+                    data-name="Ramo rosa">
+
+                    <div class="product-photo">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1495231916356-a86217efff12?auto=format&fit=crop&w=700&q=90"
+                            alt="Ramo rosa"
+                        >
+
+                        <button class="like">
+                            ♡
+                        </button>
+
+                        <span class="tag">
+                            FAVORITO
+                        </span>
+
+                    </div>
+
+
+                    <div class="product-bottom">
+
+                        <div>
+                            <small>RAMO</small>
+                            <h3>Rosas Rosadas</h3>
+                        </div>
+
+                        <strong>$35.00</strong>
+
+                    </div>
+
+
+                    <button
+                        class="add-cart"
+                        data-name="Rosas Rosadas"
+                        data-price="35">
+
+                        Agregar al carrito +
+
+                    </button>
+
+                </article>
+
+
+
+                <article
+                    class="product"
+                    data-category="alegre"
+                    data-name="Ramo girasoles">
+
+                    <div class="product-photo">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1597848212624-e19e7c3b3d0b?auto=format&fit=crop&w=700&q=90"
+                            alt="Ramo de girasoles"
+                        >
+
+                        <button class="like">
+                            ♡
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-bottom">
+
+                        <div>
+                            <small>RAMO</small>
+                            <h3>Día Soleado</h3>
+                        </div>
+
+                        <strong>$29.00</strong>
+
+                    </div>
+
+
+                    <button
+                        class="add-cart"
+                        data-name="Día Soleado"
+                        data-price="29">
+
+                        Agregar al carrito +
+
+                    </button>
+
+                </article>
+
+
+
+                <article
+                    class="product"
+                    data-category="elegante"
+                    data-name="Ramo lirios">
+
+                    <div class="product-photo">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1525310072745-f49212b5ac6d?auto=format&fit=crop&w=700&q=90"
+                            alt="Ramo elegante"
+                        >
+
+                        <button class="like">
+                            ♡
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-bottom">
+
+                        <div>
+                            <small>RAMO</small>
+                            <h3>Elegancia Floral</h3>
+                        </div>
+
+                        <strong>$42.00</strong>
+
+                    </div>
+
+
+                    <button
+                        class="add-cart"
+                        data-name="Elegancia Floral"
+                        data-price="42">
+
+                        Agregar al carrito +
+
+                    </button>
+
+                </article>
+
+
+
+                <article
+                    class="product"
+                    data-category="romantico"
+                    data-name="Ramo pastel">
+
+                    <div class="product-photo">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1523438885200-e635ba2c371e?auto=format&fit=crop&w=700&q=90"
+                            alt="Ramo pastel"
+                        >
+
+                        <button class="like">
+                            ♡
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-bottom">
+
+                        <div>
+                            <small>RAMO</small>
+                            <h3>Pastel Dreams</h3>
+                        </div>
+
+                        <strong>$38.00</strong>
+
+                    </div>
+
+
+                    <button
+                        class="add-cart"
+                        data-name="Pastel Dreams"
+                        data-price="38">
+
+                        Agregar al carrito +
+
+                    </button>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= PERSONALIZADO ================= -->
+
+        <section class="custom" id="personalizado">
+
+            <div class="custom-photo">
+
+                <img
+                    src="https://images.unsplash.com/photo-1526047932273-341f2a7631f9?auto=format&fit=crop&w=1100&q=90"
+                    alt="Ramo personalizado"
+                >
+
+            </div>
+
+
+            <div class="custom-content">
+
+                <p class="small-title">
+                    CREA ALGO ÚNICO
+                </p>
+
+                <h2>
+                    Tu idea,<br>
+                    <em>hecha ramo.</em>
+                </h2>
+
+                <p>
+                    Combina tus flores favoritas, elige
+                    los colores y crea un ramo que tenga
+                    exactamente el significado que quieres
+                    transmitir.
+                </p>
+
+
+                <div class="custom-steps">
+
+                    <div>
+                        <span>01</span>
+                        <p>Escoge tus flores</p>
+                    </div>
+
+                    <div>
+                        <span>02</span>
+                        <p>Elige los colores</p>
+                    </div>
+
+                    <div>
+                        <span>03</span>
+                        <p>Personaliza tu ramo</p>
+                    </div>
+
+                </div>
+
+
+                <button
+                    class="main-button"
+                    id="customButton">
+
+                    Diseñar mi ramo →
+
+                </button>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= OCASIONES ================= -->
+
+        <section class="occasions" id="ocasiones">
+
+            <div class="section-top">
+
+                <div>
+
+                    <p class="small-title">
+                        PARA CADA MOMENTO
+                    </p>
+
+                    <h2>
+                        Flores para <em>celebrar.</em>
+                    </h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="occasion-grid">
+
+                <div class="occasion">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1550614000-4b9519e0927b?auto=format&fit=crop&w=700&q=90"
+                        alt="Cumpleaños"
+                    >
+
+                    <div>
+                        <span>01</span>
+                        <h3>Cumpleaños</h3>
+                        <p>Un detalle para hacer sonreír.</p>
+                    </div>
+
+                </div>
+
+
+                <div class="occasion">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1518199266791-5375a83190b7?auto=format&fit=crop&w=700&q=90"
+                        alt="Amor"
+                    >
+
+                    <div>
+                        <span>02</span>
+                        <h3>Amor</h3>
+                        <p>Para decir lo que sientes.</p>
+                    </div>
+
+                </div>
+
+
+                <div class="occasion">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=700&q=90"
+                        alt="Aniversario"
+                    >
+
+                    <div>
+                        <span>03</span>
+                        <h3>Aniversarios</h3>
+                        <p>Momentos que merecen quedarse.</p>
+                    </div>
+
+                </div>
+
+
+                <div class="occasion">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=700&q=90"
+                        alt="Gracias"
+                    >
+
+                    <div>
+                        <span>04</span>
+                        <h3>Gracias</h3>
+                        <p>Un pequeño gesto, mucho significado.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= FRASE ================= -->
+
+        <section class="quote">
+
+            <span>“</span>
+
+            <p>
+                Las flores no solo decoran un momento,
+                <br>
+                <em>lo convierten en un recuerdo.</em>
+            </p>
+
+            <small>
+                BLOOM & MORE
+            </small>
+
+        </section>
+
+
+
+        <!-- ================= NEWSLETTER ================= -->
+
+        <section class="newsletter" id="contacto">
+
+            <div>
+
+                <p class="small-title">
+                    QUÉDATE CERCA
+                </p>
+
+                <h2>
+                    Flores, ideas y<br>
+                    <em>momentos bonitos.</em>
+                </h2>
+
+            </div>
+
+
+            <form id="newsletterForm">
+
+                <p>
+                    Suscríbete para recibir novedades
+                    y promociones.
+                </p>
+
+                <div class="email">
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Tu correo electrónico"
+                        required
+                    >
+
+                    <button>
+                        Suscribirme →
+                    </button>
+
+                </div>
+
+                <small id="message"></small>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-logo">
+
+            <a href="#" class="logo">
+                <span class="flower-symbol">✿</span>
+                Bloom <i>&</i> More
+            </a>
+
+            <p>
+                Flores que hablan por ti.
+            </p>
+
+        </div>
+
+
+        <div class="footer-menu">
+
+            <a href="#inicio">Inicio</a>
+            <a href="#flores">Flores</a>
+            <a href="#ramos">Ramos</a>
+            <a href="#ocasiones">Ocasiones</a>
+            <a href="#contacto">Contacto</a>
+
+        </div>
+
+
+        <p class="copyright">
+            © 2026 Bloom & More
+        </p>
+
+    </footer>
+
+
+
+    <!-- ================= MODAL ================= -->
+
+    <div class="modal-background" id="modal">
+
+        <div class="modal">
+
+            <button class="modal-close" id="modalClose">
+                ×
+            </button>
+
+            <p class="small-title">
+                RAMO PERSONALIZADO
+            </p>
+
+            <h2>
+                Crea algo <em>tuyo.</em>
+            </h2>
+
+            <p>
+                ¿Qué estilo quieres para tu ramo?
+            </p>
+
+
+            <div class="modal-options">
+
+                <button data-style="Romántico">
+                    🌷
+                    <span>Romántico</span>
+                </button>
+
+                <button data-style="Alegre">
+                    🌻
+                    <span>Alegre</span>
+                </button>
+
+                <button data-style="Elegante">
+                    🌹
+                    <span>Elegante</span>
+                </button>
+
+            </div>
+
+
+            <button
+                class="main-button"
+                id="continueButton">
+
+                Continuar →
+
+            </button>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- TOAST -->
+
+    <div class="toast" id="toast">
+        Producto agregado ♡
+    </div>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
